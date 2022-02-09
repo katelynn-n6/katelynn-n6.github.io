@@ -77,13 +77,13 @@ img {
   height: 70px;
   text-align: center;
   text-decoration: none;
-  color: darkblue;
-
+  color: white;
+  filter: drop-shadow(0px 0px 3px blue)
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 *,
@@ -130,8 +130,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, p, .p {
   margin-bottom: 0.5rem;
   font-weight: 1500;
   line-height: 1.2;
-  -webkit-text-stroke: 0.2px white;
-  filter: drop-shadow(1px 1px 4px teal);
+  -webkit-text-stroke: 0.4px white;
+  filter: drop-shadow(1px 1px 3px blue);
   text-shadow: 1px 1px 0px  blue, -1px -1px 0px  blue, 1px -1px 0px  blue, -1px 1px 0px  blue;
 
 }
@@ -181,7 +181,7 @@ h6, .h6 {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   margin-top: 0;
   margin-bottom: 1rem;
   line-height: 1.5;
