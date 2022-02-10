@@ -70,6 +70,7 @@
   box-sizing: border-box;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -111,6 +112,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  filter: drop-shadow(0px 0px 4px blue)
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -129,6 +131,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
+  filter: drop-shadow(0px 0px 4px blue);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
@@ -504,6 +507,7 @@ progress {
     typing 8s steps(20, end),
     blink-caret .5s step-end infinite;
   animation-iteration-count: infinite;
+  animation-delay: 2s;
 }
 
 .type-container {
@@ -3060,12 +3064,12 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1D809F;
-  border-color: #1D809F;
+  background-color: #0e3bc4;
+  border-color: #0e3bc4;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #196d87;
+  background-color: navy;
   border-color: #17667f;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -7845,6 +7849,17 @@ textarea.form-control-lg {
   background-color: #1D809F;
 }
 
+.bg-portfolio {
+  --bs-bg-opacity: 1;
+  background-color: #4892cf;
+}
+
+
+.bg-resume {
+  --bs-bg-opacity: 1;
+  background-color: #3f6ec4;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -11479,7 +11494,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: dodgerblue;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
