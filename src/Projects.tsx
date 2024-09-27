@@ -5,7 +5,7 @@ export default function Projects() {
         <h1 className="tracking-tightish my-20">Projects</h1>
         <div className="flex mx-60 mb-16">
           <div className="min-w-44 max-w-44 mx-16">
-            <a rel="noopener noreferrer" href="https://tekkanji.up.railway.app">
+            <a target="_blank" href="https://tekkanji.up.railway.app">
               <img src="/tekkanji.png"></img>
             </a>
           </div>
@@ -27,7 +27,7 @@ export default function Projects() {
         </div>
         <div className="flex mx-60 mb-16">
           <div className="min-w-44 max-w-44 mx-16">
-            <a rel="noopener noreferrer" href="https://rocola.it">
+            <a target="_blank" href="https://rocola.it">
               <img src="/spotbox.png"></img>
             </a>
           </div>
@@ -50,7 +50,7 @@ export default function Projects() {
         <div className="flex mx-60 mb-16">
           <div className="min-w-44 max-w-44 mx-16">
             <a
-              rel="noopener noreferrer"
+              target="_blank"
               href="https://youtu.be/h2aPmB0_HTw?si=vI5nxwsBIBdEyDho">
               <img src="/wwr.png"></img>
             </a>
@@ -73,8 +73,8 @@ export default function Projects() {
         <div className="flex mx-60 mb-16">
           <div className="min-w-44 max-w-44 mx-16">
             <a
-              rel="noopener noreferrer"
-              href="https://devpost.com/software/the-piping-plover-migrationt">
+              target="_blank"
+              href="https://devpost.com/software/the-piping-plover-migration">
               <img src="/plover.png"></img>
             </a>
           </div>
@@ -95,9 +95,7 @@ export default function Projects() {
         </div>
         <div className="flex mx-60 mb-16">
           <div className="min-w-44 max-w-44 mx-16">
-            <a
-              rel="noopener noreferrer"
-              href="https://allisanlu.itch.io/paper-planes">
+            <a target="_blank" href="https://allisanlu.itch.io/paper-planes">
               <img src="/paperplanes.png"></img>
             </a>
           </div>
