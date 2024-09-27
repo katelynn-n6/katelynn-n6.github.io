@@ -8,7 +8,10 @@ export default function About() {
             <p className="mb-5">I'm Katelynn, and I am a software engineer.</p>
             <p className="mb-5">
               I am a graduating 4th-year Computer Science student at the{" "}
-              <a className="text-black underline" href="https://gatech.edu">
+              <a
+                className="text-black underline"
+                target="_blank"
+                href="https://gatech.edu">
                 Georgia Institute of Technology
               </a>
               , specializing in people (human computer interaction, ui/ux
