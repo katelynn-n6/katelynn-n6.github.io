@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <div>
       <div className="font-crimson text-black text-center m-20 mb-28">
-        <h1 className="tracking-tightish my-20">projects</h1>
+        <h1 className="tracking-tightish my-20">Projects</h1>
         <div className="flex mx-60 mb-16">
           <div className="min-w-44 max-w-44 mx-16">
             <a rel="noopener noreferrer" href="https://tekkanji.up.railway.app">
@@ -11,16 +11,16 @@ export default function Projects() {
           </div>
           <div className="leading-8">
             <div className="text-3xl text-left">
-              <b>tekkanji</b>
+              <b>Tekkanji</b>
             </div>
             <div className="text-2halfxl text-left">
-              <p>javascript · react · express · node</p>
+              <p>JavaScript · React · Express · Node</p>
             </div>
             <div className="mt-5 text-1halfxl text-left">
               <p className="leading-7 mb-3">
-                a full-stack web application for students to learn and review
-                the 322 kanji characters introduced by japn 1001-3001 at georgia
-                tech, now used by the japanese department.
+                A full-stack web application for students to learn and review
+                the 322 kanji characters introduced by JAPN 1001-3001 at Georgia
+                Tech, now used by the Japanese department.
               </p>
             </div>
           </div>
@@ -33,14 +33,14 @@ export default function Projects() {
           </div>
           <div className="leading-8">
             <div className="text-3xl text-left">
-              <b>spotify jukebox</b>
+              <b>Spotify Jukebox</b>
             </div>
             <div className="text-2halfxl text-left">
-              <p>javascript · react · next · aws · node · dynamodb</p>
+              <p> React · Next · AWS · Node · DynamoDB</p>
             </div>
             <div className="mt-5 text-1halfxl text-left">
               <p className="leading-7 mb-3">
-                a full-stack web application for users to use “virtual
+                A full-stack web application for users to use “virtual
                 jukeboxes” to select songs in a host's queue through voting,
                 offering a more collaborating and engaging music experience.
               </p>
@@ -57,15 +57,15 @@ export default function Projects() {
           </div>
           <div className="leading-8">
             <div className="text-3xl text-left">
-              <b>wild west rising</b>
+              <b>Wild West Rising</b>
             </div>
             <div className="text-2halfxl text-left">
-              <p>java · android studio</p>
+              <p>Java · Android Studio</p>
             </div>
             <div className="mt-5 text-1halfxl text-left">
               <p className="leading-7 mb-3">
-                a tower-defense android video game. placed 3rd among class
-                competition for cs 2340: objects & design.
+                A tower-defense Android video game. Placed 3rd among class
+                competition for CS 2340: Objects & Design.
               </p>
             </div>
           </div>
@@ -80,15 +80,15 @@ export default function Projects() {
           </div>
           <div className="leading-8">
             <div className="text-3xl text-left">
-              <b>the plight of the piping plover</b>
+              <b>The Plight of the Piping Plover</b>
             </div>
             <div className="text-2halfxl text-left">
-              <p>html · css · bootstrap</p>
+              <p>HTML · CSS · Bootstrap</p>
             </div>
             <div className="mt-5 text-1halfxl text-left">
               <p className="leading-7 mb-3">
-                an educational video game about climate change and species
-                extinction. developed during techtogether atlanta 2022.
+                An educational video game about climate change and species
+                extinction. Developed during TechTogether Atlanta 2022.
               </p>
             </div>
           </div>
@@ -103,15 +103,15 @@ export default function Projects() {
           </div>
           <div className="leading-8">
             <div className="text-3xl text-left">
-              <b>paper planes</b>
+              <b>Paper Planes</b>
             </div>
             <div className="text-2halfxl text-left">
-              <p>c# · unity</p>
+              <p>C# · Unity</p>
             </div>
             <div className="mt-5 text-1halfxl text-left">
               <p className="leading-7 mb-3">
-                2d sidescroller platformer video game about a wind goddess
-                rediscovering life through paper plane messages. vgdev spring
+                2D sidescroller platformer video game about a wind goddess
+                rediscovering life through paper plane messages. VGDev Spring
                 '22.
               </p>
             </div>

@@ -1,9 +1,9 @@
 import SocialLinks from "./SocialLinks";
 
 const navigation = [
-  { name: "about", href: "#/", current: false },
-  { name: "resume", href: "#/resume", current: false },
-  { name: "projects", href: "#/projects", current: false },
+  { name: "About", href: "#/", current: false },
+  { name: "Resume", href: "#/resume", current: false },
+  { name: "Projects", href: "#/projects", current: false },
 ];
 
 export default function NavBar() {
@@ -12,7 +12,7 @@ export default function NavBar() {
       <div className="mx-auto my-5 max-w-8xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <a key={"about"} href="/" className="text-3xl text-black">
-            katelynn nguyen
+            Katelynn Nguyen
           </a>
           <div className="absolute inset-0 flex justify-center items-center pr-2">
             <div className="flex space-x-4">

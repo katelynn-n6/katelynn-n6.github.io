@@ -13,7 +13,7 @@ export default function SiteFooter() {
       </div>
       <div className="absolute inset-0 flex justify-center items-center pr-2">
         <div className="flex space-x-4">
-          <p className="text-3xl text-black">katelynn nguyen</p>
+          <p className="text-3xl text-black">Katelynn Nguyen</p>
         </div>
       </div>
       <SocialLinks />
