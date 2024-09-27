@@ -16,11 +16,11 @@ export default function About() {
             </p>
             <p className="mb-5">
               through my{" "}
-              <a href="/resume" className="text-black underline">
+              <a href="#/resume" className="text-black underline">
                 full-time internship experiences
               </a>
               , my{" "}
-              <a href="/projects" className="text-black underline">
+              <a href="#/projects" className="text-black underline">
                 personal projects
               </a>
               , and my coursework, i have acquired a passion for frontend and
