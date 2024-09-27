@@ -1,9 +1,9 @@
 import SocialLinks from "./SocialLinks";
 
 const navigation = [
-  { name: "about", href: "/", current: false },
-  { name: "resume", href: "/resume", current: false },
-  { name: "projects", href: "/projects", current: false },
+  { name: "about", href: "#/", current: false },
+  { name: "resume", href: "#/resume", current: false },
+  { name: "projects", href: "#/projects", current: false },
 ];
 
 export default function NavBar() {
